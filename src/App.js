@@ -68,6 +68,7 @@ function App() {
               onChange={changeLuckyNumber}
               value={luckynumber}
               required
+              min="1"
             />
             <br/>
             <button type='submit'>Check</button>
